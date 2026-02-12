@@ -1,11 +1,12 @@
 namespace KnightMoves;
 
 public class Converter {
-   public double ConvertImplicitly() {
-      int intValue = 10;
-      
-      double doubleValue = intValue; 
-      
-      return doubleValue;
-   }
-}
+    public decimal ConvertImplicitly(int intValue) {
+        decimal decimalValue = intValue; 
+        return decimalValue;
+    }
+
+    public int ConvertExplicitly(decimal decimalValue) {
+        int intValue = (int)decimalValue;
+        return intValue;
+    }

@@ -1,11 +1,11 @@
-﻿namespace knightmoves;
+namespace KnightMoves;
 
-public class Converter{
-   public int ConvertImplicitly(){
-      int intvalue = 10;
-      double doublevalue = double()intvalue;
+public class Converter {
+   public double ConvertImplicitly() {
+      int intValue = 10;
       
+      double doubleValue = intValue; 
+      
+      return doubleValue;
    }
-
 }
-

@@ -1,5 +1,10 @@
 ﻿namespace knightmoves;
 
 public class Converter{
-   //Add your code here
+   public int ConvertImplicitly(){
+      int ConvertImplicitly = 10;
+      double doublevalue = double()ConvertImplicitly;
+      
+   }
+
 }

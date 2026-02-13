@@ -2,8 +2,13 @@ namespace KnightMoves;
 
 public class Converter 
 {
-    public decimal ConvertImplicitly(int intValue) => intValue;
+    public decimal ConvertImplicitly(int intValue) 
+    {
+        return intValue;
+    }
     
-    public int ConvertExplicitly(decimal decimalValue) => (int)decimalValue;
+    public int ConvertExplicitly(decimal decimalValue) 
+    {
+        return (int)decimalValue;
+    }
 }
-

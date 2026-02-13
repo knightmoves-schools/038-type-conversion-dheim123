@@ -10,3 +10,6 @@ public class Converter {
         int intValue = (int)decimalValue;
         return intValue;
     }
+
+}
+

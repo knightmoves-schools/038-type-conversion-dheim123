@@ -1,4 +1,4 @@
-namespace KnightMoves;
+namespace knightmoves;
 
 public class Converter 
 {
@@ -12,3 +12,4 @@ public class Converter
         return (int)decimalValue;
     }
 }
+
